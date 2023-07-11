@@ -196,9 +196,58 @@ body {
     line-height: 30px;
     margin-bottom: 24px;
 }
+.best-selling {
+    margin-top: 150px;
+}
+
+.best-selling-about {
+    background: #b1dcc3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1922px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.best-selling-title {
+    text-align: center;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+    white-space: pre-wrap;
+    color: #514d4d;
+}
+
+.best-selling-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+
+.best-selling-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.best-selling-name {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center; 
+}
+
+.best-selling-info img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+.show-btn{
+    text-align: center;
+    padding-top: 40px;
+}
 
 .showroom {
-
     margin-top: 150px;
 }
 
