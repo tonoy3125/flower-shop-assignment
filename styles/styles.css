@@ -196,12 +196,13 @@ body {
     line-height: 30px;
     margin-bottom: 24px;
 }
+
 .best-selling {
     margin-top: 150px;
 }
 
 .best-selling-about {
-    background: #b1dcc3;
+    background: #b3d4c0;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 1922px;
@@ -218,7 +219,7 @@ body {
     color: #514d4d;
 }
 
-.best-selling-description{
+.best-selling-description {
     text-align: center;
     font-size: 18px;
     font-weight: 400px;
@@ -234,7 +235,7 @@ body {
 .best-selling-name {
     padding-top: 20px;
     padding-bottom: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .best-selling-info img {
@@ -242,13 +243,87 @@ body {
     height: 300px;
     border-radius: 8px;
 }
-.show-btn{
+
+.show-btn {
     text-align: center;
     padding-top: 40px;
 }
 
+.instagram {
+    background: #FFF;
+}
+
+.instagram-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.Instagram-description {
+    padding-bottom: 48px;
+}
+
+.flower-image {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.deals {
+    border-radius: 8px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.deals-content {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 16px;
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.deals-info {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.deals-bag {
+    padding: 22px 250px;
+    border-radius: 8px;
+    border-color: #FFF;
+    border: 0px;
+}
+
+#my-input::placeholder {
+    left: -220px;
+    position: relative;
+}
+
 .showroom {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .showroom-about {
@@ -290,80 +365,6 @@ body {
     height: 300px;
     border-radius: 8px;
 }
-
-.instagram {
-    background: #FFF;
-}
-
-.instagram-container {
-    text-align: center;
-    margin-top: 150px;
-}
-
-.Instagram-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 24px;
-}
-
-.Instagram-description {
-    padding-bottom: 48px;
-}
-
-.flower-image {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-.deals {
-    border-radius: 8px;
-    background-image: url('../Flower Asset/Rectangle\ 9.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
-.deals-content {
-    text-align: center;
-    padding-bottom: 120px;
-}
-
-.deals-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    padding-top: 120px;
-    padding-bottom: 16px;
-}
-
-.deals-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 50px;
-}
-
-.deals-info {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.deals-bag {
-    padding: 22px 250px;
-    border-radius: 8px;
-    border-color: #FFF;
-    border: 0px;
-}
-
-#my-input::placeholder {
-    left: -220px;
-    position: relative;
-}
-
 
 .footer-section {
     background-color: #111010;
