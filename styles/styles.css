@@ -14,6 +14,9 @@ body {
 
 .header {
     background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    margin: 0 auto;
 }
 
 .flower {
@@ -30,7 +33,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     width: 800px;
-    margin-bottom: 32px;
+    padding-bottom: 24px;
 
 }
 
@@ -39,7 +42,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .btn-primary {
@@ -78,7 +81,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
 }
 
 .product {
@@ -136,6 +139,7 @@ body {
     height: 320px;
     margin: 0 auto;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .support-container {
@@ -146,17 +150,31 @@ body {
     gap: 100px;
 }
 
+.support-info {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.support-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-bottom: 150px;
+    width: 1922px;
+    height: 620px;
+    margin: 0 auto;
 }
 
 .hot-deal-container {
     display: flex;
     justify-content: center;
     gap: 200px;
-    margin-top: 50px;
+    padding-top: 100px;
 }
 
 .hot-deal-info {
@@ -180,39 +198,44 @@ body {
 }
 
 .showroom {
-    background: rgba(71, 125, 17, 0.15);
-    /* margin-top: 150px; */
-    width: 1440px;
-    height: 520px;
-    margin: 0 auto;
+
+    margin-top: 150px;
 }
 
 .showroom-about {
+    background: rgba(71, 125, 17, 0.15);
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 1922px;
+    height: 600px;
+    margin: 0 auto;
 }
 
 .showroom-title {
     text-align: center;
-    padding-bottom: 40px;
-    /* margin-top: 150px; */
-    font-size: 30px;
-    /* padding-top: 40px; */
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.showroom-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 30px;
 }
 
 .showroom-info {
     display: flex;
     justify-content: center;
     gap: 50px;
-    /* padding-top: 40px; */
-    /* margin-top: 150px; */
-    /* width: 20px; */
 }
 
-/* .showroom-img img{
-    width: 60%;
-} */
+.showroom-place {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .showroom-info img {
     width: 400px;
     height: 300px;
@@ -232,11 +255,11 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .Instagram-description {
-    margin-bottom: 24px;
+    padding-bottom: 48px;
 }
 
 .flower-image {
@@ -251,6 +274,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .deals-content {
@@ -273,25 +297,39 @@ body {
     padding-bottom: 50px;
 }
 
+.deals-info {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .deals-bag {
-    padding: 22px 180px;
+    padding: 22px 250px;
     border-radius: 8px;
     border-color: #FFF;
-
+    border: 0px;
 }
+
+#my-input::placeholder {
+    left: -220px;
+    position: relative;
+}
+
 
 .footer-section {
     background-color: #111010;
     text-align: center;
-    margin-top: 110px;
     padding-bottom: 150px;
+    width: 1922px;
+    height: 449px;
+    margin: 0 auto;
 }
 
 .footer-title {
     font-size: 48px;
     font-weight: 800;
     color: #FFF;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .footer-description {
